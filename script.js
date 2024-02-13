@@ -1,5 +1,7 @@
-$('.menu').on('touchstart', function() {
-    $('.preloader').fadeOut().end().delay(1000).fadeOut('slow');
+$(document).ready(function(){
+    $(document).click(function() {
+        $('.preloader').hide();
+    });
   });
   
 window.requestAnimationFrame =
