@@ -1,7 +1,8 @@
-$(window).on('click', function() {
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+document.getElementById('hbs').addEventListener(touchEvent, function() {
     $('.preloader').fadeOut().end().delay(1000).fadeOut('slow');
   });
-
+  
 window.requestAnimationFrame =
     window.__requestAnimationFrame ||
         window.requestAnimationFrame ||
