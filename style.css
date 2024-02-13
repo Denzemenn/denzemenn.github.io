@@ -18,18 +18,17 @@ canvas {
   background-color: #000;
   color:white;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   z-index: 1001;
+  animation: fade 2s 3s 1 normal;
 }
 
 .preloader-text {
   position: relative;
-  width: 55%;
-  height: 70px;
-  bottom: 40px;
+  width: 90%;
+  height: 300px;
   font-size: 40px;
   font-weight: 600;
   font-family: Comfortaa;
-  animation: fade 2s 10s 1 normal
 }
