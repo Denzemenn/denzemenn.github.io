@@ -1,8 +1,6 @@
-$(document).ready(function(){
-    $(document).click(function() {
-        $('.preloader').hide();
-    });
-  });
+$(document).on('touchstart', '.preloader', function(){
+    $('.preloader').hide();
+});
   
 window.requestAnimationFrame =
     window.__requestAnimationFrame ||
