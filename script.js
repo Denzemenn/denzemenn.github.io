@@ -1,5 +1,4 @@
-let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
-document.getElementById('hbs').addEventListener(touchEvent, function() {
+$('.menu').on('touchstart', function() {
     $('.preloader').fadeOut().end().delay(1000).fadeOut('slow');
   });
   
