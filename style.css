@@ -31,4 +31,5 @@ canvas {
   font-size: 40px;
   font-weight: 600;
   font-family: Comfortaa;
+  animation: fade 2s 10s 1 normal
 }
